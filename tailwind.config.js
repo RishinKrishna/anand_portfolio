@@ -12,7 +12,9 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        Montserrat: ['Montserrat', "sans-serif"],
       },
+      
     },
     screens: {
       xs: "480px",

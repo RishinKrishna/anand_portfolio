@@ -1,20 +1,20 @@
 import styles from "./style";
-import { Navbar, Footer, Hero, Experience, About, Contact, Portfolio, Testimonials } from "./components";
+import { Navbar, Footer, Hero, Experience, About, Contact, Portfolio, Testimonials, Skills } from "./components";
 
 const App = () => (
-  <div className="w-full overflow-hidden">
+  <div className="w-full h-screen">
     <div
-      className="w-[100%] h-[100vh] overflow-hidden main_image"
-      style={{
-        backgroundImage: `url("https://wallpapercave.com/wp/wp2722874.jpg")`,
-      }}
+      className="w-full  h-sreen bg-top bg-no-repeat  bg-cover bg-fixed overflow-hidden main_image"
+      // style={{
+      //   backgroundImage: `url("https://wallpapercave.com/wp/wp2722874.jpg")`
+      // }}
     >
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth} `}>
           <Navbar />
         </div>
       </div>
-      <div className={`${styles.flexStart}`}>
+      <div className={`${styles.flexStart} `}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
@@ -23,16 +23,9 @@ const App = () => (
     <div className={`bg-[#F0F0F0] ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <About />
-      </div>
-    </div>
-    <div className={`bg-[#F0F0F0] ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
         <Experience />
         <Portfolio/>
-      </div>
-    </div>
-    <div className={`bg-[#F0F0F0] ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
+        <Skills/>
         <Testimonials/>
         <Contact />
         <Footer />

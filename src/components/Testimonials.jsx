@@ -10,11 +10,11 @@ import "swiper/css/pagination";
 
 const Testimonials = () => {
   return (
-    <section className="testmonials container section">
+    <section id="clinets" className="testmonials container section">
       <h2
         className={`text-[#141824] flex justify-center font-poppins font-semibold text-4xl py-10`}
       >
-        Clinets & Reviews
+          CLIENTS & REVIEWS
       </h2>
 
       <Swiper
@@ -33,7 +33,7 @@ const Testimonials = () => {
                 <img
                   src={image}
                   alt=""
-                  className="rounded-[50%] h-[60px] object-cover"
+                  className="rounded-[50%] h-[70px] object-cover"
                 />
               </div>
               <h3 className="testmonials_title">{title}</h3>

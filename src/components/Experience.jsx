@@ -1,15 +1,41 @@
-import React from "react";
+// import gsap from "gsap-trial"
+// import { SplitText } from "gsap-trial/SplitText";
+// import { ScrollTrigger } from "gsap-trial/ScrollTrigger";
+
+// // gsap.config({ trialWarn: false });
+
+// gsap.registerPlugin(SplitText, ScrollTrigger)
+
+// let mySplitText = new SplitText('#sub_heading_experience', {type : 'chars'} )
+
+// let chars = mySplitText.chars
+
+// gsap.from(chars, {
+//   yPercent: 130,
+//   stagger: 0.05,
+//   delay:0.2,
+//   ease: "back.out",
+//   duration: 1,
+//   lineHeight: 0.2,
+//   scrollTrigger:{
+//     trigger: '#sub_heading_experience',
+//     start:'top 80%',
+//     markers: true
+//   }
+// })
 
 const Experience = () => {
   return (
-    <div className="qualifications_container">
-      <h2 className={`text-[#141824] flex justify-center font-poppins font-semibold text-4xl py-10`}>
-      Experience
+    <div id="experience" className="qualifications_container ">
+      <h2
+        id="sub_heading_experience"
+        className={` overflow-hidden text-[#141824] flex justify-center font-Montserrat font-semibold text-4xl py-[30px]`}
+      >
+        EXPERIENCE
       </h2>
-      <main className="_row">
+      <main className="_row my[30px]">
         <section className="_col">
-          <header className="_title">
-          </header>
+          <header className="_title"></header>
           <div className="_contents">
             <div className="_box">
               <h4>July 2022 - Present</h4>
@@ -44,8 +70,7 @@ const Experience = () => {
         </section>
 
         <section className="_col">
-          <header className="_title">
-          </header>
+          <header className="_title"></header>
           <div className="_contents">
             <div className="_box">
               <h4>June 2020 - June 2022</h4>
