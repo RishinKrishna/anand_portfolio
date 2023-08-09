@@ -30,13 +30,15 @@ const Hero = () => (
     id="home"
     className={`flex flex-1 md:flex-row flex-col ${styles.paddingY} h-[100vh]`}
   >
+  
+
     {/* className={`flex ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`} */}
 
-    <div className={`flex ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
+    <div className={`flex ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 header_text`}>
       <div className="flex flex-row justify-between items-center w-full">
         <h1 className="name_heading flex-1 font-poppins  ss:text-[82px]  text-[32px] text-white ss:leading-[100px] leading-[75px]">
-          <span className="ss:text-[80px] font-semibold text-[32px] ss:bottom-0">
-            Anand Nambissan
+          <span className="ss:text-[80px] font-semibold text-[32px] ss:bottom-0 main_heading">
+            Anand <br /> Nambissan
           </span>{" "}
         </h1>
       </div>

@@ -1,94 +1,89 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faInstagram,
-  faTwitter,
-  faLinkedin,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons";
-
-import {
-  faEnvelope,
-  faPhone,
-  faLocationDot,
-} from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   return (
-    <div id="contact">
-      <div className="contact_container">
-        <h2 className={`text-[#141824] flex justify-center font-poppins font-semibold text-4xl py-10`}>
-        CONTACT ME
+    <section id="contact" className="contact container section">
+      <h2
+        className={`text-[#141824] flex justify-center font-Montserrat font-semibold text-4xl py-10`}
+      >
+        CONTACT
       </h2>
-        <div className="_contact_row flex justify-between flex-wrap">
-        <div className="_contact_right">
-            <form action="">
-              <input type="text" name="Name" placeholder="Your Name" required />
+
+      <div className="contact_container grid">
+        <div className="contact_info">
+          <h3 className="contact_title font-semibold text-[16px]">
+            Let's tailk about <br /> everything
+          </h3>
+          <p className="contact_details">
+            Don't like forms? send me an email.{" "}
+          </p>
+          <p className="mt-5">
+            As a seasoned IT consultant, I specialize in providing expert
+            guidance on startup MVP development, budget planning for app
+            development
+          </p>
+
+          <a href="" className="flex mt-6">
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              className="social_icons bg-[#141824] py-2 px-2  rounded-[5px] text-white text-[20px]"
+            />
+            <p className="ml-4 mt-1 text-[#141824] text-[16px] font-semibold contact_links">
+              anand@vass.co.in
+            </p>
+          </a>
+
+          <a href="" className="flex mt-6">
+            <FontAwesomeIcon
+              icon={faPhone}
+              className="social_icons bg-[#141824] py-2 px-2  rounded-[5px] text-white text-[20px]"
+            />
+            <p className="ml-4 mt-1 text-[#141824] text-[16px] font-semibold contact_links">
+              +91 9496 686 256
+            </p>
+          </a>
+        </div>
+        <form action="" className="contact_form">
+          <div className="contact_form-group">
+            <div className="contact_form-div">
+              <input
+                type="text"
+                className="contact_form-input"
+                placeholder="Insert your name"
+              />
+            </div>
+            <div className="contact_form-div">
               <input
                 type="email"
-                name="email"
-                placeholder="Your Email"
-                required
+                className="contact_form-input"
+                placeholder="Insert your email"
               />
-              <textarea
-                name="Message"
-                rows="6"
-                placeholder="Your Message"
-              ></textarea>
-            </form>
+            </div>
+          </div>
 
-            <button type="submit">Submit</button>
+          <div className="contact_form-div">
+            <input
+              type="text"
+              className="contact_form-input"
+              placeholder="Insert your subject"
+            />
           </div>
-          <div className="_contact_left mt-4">
-            <div className="flex flex-col justify-between text-[#141824]">
-              <p>
-                {" "}
-                <FontAwesomeIcon
-                  icon={faEnvelope}
-                  className="text-[26px] bg-[#141824] py-[7px] px-[9px] rounded-[6px] text-[#F0F0F0]"
-                />{" "}
-                rishin@gmail.com
-              </p>
-              <p className="mt-8">
-                <FontAwesomeIcon
-                  icon={faPhone}
-                  className="text-[26px] bg-[#141824] py-[7px] px-[9px] rounded-[6px] text-[#F0F0F0]"
-                />{" "}
-                456684651635
-              </p>
-              <p className="mt-8">
-                <FontAwesomeIcon
-                  icon={faLocationDot}
-                  className="text-[26px] bg-[#141824] py-[7px] px-[12px] rounded-[6px] text-[#F0F0F0]"
-                />{" "}
-                18/505H, VASS ARCADE, P.O. Mayanad, Calicut-8 Kerala, IN
-              </p>
-            </div>
-            <div className="social_icons mt-12 ">
-              <a href="#" className="mr-2">
-                <FontAwesomeIcon icon={faFacebook} />
-              </a>
-              <a href="" className="mr-2 social_icons">
-                {" "}
-                <FontAwesomeIcon icon={faInstagram} />
-              </a>
-              <a href="" className="mr-3">
-                {" "}
-                <FontAwesomeIcon icon={faTwitter} />
-              </a>
-              <a href="" className="mr-2">
-                <FontAwesomeIcon icon={faLinkedin} />
-              </a>
-              <a href="" className="mr-2">
-                {" "}
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
-            </div>
+
+          <div className="contact_form-div contact_form-area">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              className="contact_form-input"
+              placeholder="Write your message"
+            ></textarea>
           </div>
-          
-        </div>
+          <button className="main_btn">Sent Message</button>
+        </form>
       </div>
-    </div>
+    </section>
   );
 };
 

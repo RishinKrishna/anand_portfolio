@@ -13,9 +13,9 @@ export {
   Footer,
   Hero,
   About,
-  Contact,
   Experience,
   Portfolio,
   Testimonials,
   Skills,
+  Contact,
 };

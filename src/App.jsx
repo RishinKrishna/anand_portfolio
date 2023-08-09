@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Navbar, Footer, Hero, Experience, About, Contact, Portfolio, Testimonials, Skills } from "./components";
+import { Navbar, Footer, Hero, Experience, About, Portfolio, Testimonials, Skills, Contact } from "./components";
 
 const App = () => (
   <div className="w-full h-screen">
@@ -27,10 +27,15 @@ const App = () => (
         <Portfolio/>
         <Skills/>
         <Testimonials/>
-        <Contact />
+        <Contact/>
+      </div>
+    </div>
+    <div className={`bg-[#141824] ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
         <Footer />
       </div>
     </div>
+
   </div>
 );
 

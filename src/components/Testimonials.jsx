@@ -14,7 +14,7 @@ const Testimonials = () => {
       <h2
         className={`text-[#141824] flex justify-center font-poppins font-semibold text-4xl py-10`}
       >
-          CLIENTS & REVIEWS
+        CLIENTS
       </h2>
 
       <Swiper

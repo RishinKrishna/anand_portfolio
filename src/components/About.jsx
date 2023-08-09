@@ -1,9 +1,10 @@
 import styles, { layout } from "../style";
+import { about_img } from "../assets";
 const About = () => (
   <section id="about" className={`${layout.sectionReverse} my-[30px]`}>
     <div className={`${layout.sectionImgReverse}`}>
       <img
-        src="https://th.bing.com/th/id/OIP.nuR81VxPJg5ewn6HPz_EZgHaE8?pid=ImgDet&rs=1"
+        src={about_img}
         alt="billing"
         className="w-[100%] h-[100%] relative z-[5] rounded-[12px]"
       />
