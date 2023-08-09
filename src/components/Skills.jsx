@@ -1,4 +1,4 @@
-import React from "react";
+import { about_img } from "../assets";
 
 const Skills = () => {
   return (
@@ -8,7 +8,7 @@ const Skills = () => {
       </h2>
       <div className="about_container grid">
         <img
-          src="https://i.pinimg.com/736x/57/46/99/57469934607dc3015e7cafb3f6eb671e.jpg"
+        src={about_img}
           alt="" className="about_img rounded-[20px] object-cover overflow-hidden w-[100%] h-[100%]"
         />
         <div className="about_data grid">

@@ -26,7 +26,7 @@ const Footer = () => (
           alt="hoobank"
           className="w-[266px] h-[72px] object-contain"
         /> */}
-        <p className={`${styles.paragraph} mt-4 max-w-[310px] text-[#ccc]`}>
+        <p className={`${styles.paragraph} mt-4 max-w-[310px] text-white`}>
           A new way to make the payments easy, reliable and secure.
         </p>
         <div className="flex gap-3">
