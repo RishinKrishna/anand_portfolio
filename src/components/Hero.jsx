@@ -51,6 +51,11 @@ const Hero = () => (
         likely to fit your needs. We examine annual percentage rates, annual
         fees.
       </p>
+      <button
+        className="main_btn mt-5 "
+      >
+       Get Free Consultation
+      </button>
     </div>
   </section>
 );

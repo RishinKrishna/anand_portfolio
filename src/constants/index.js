@@ -1,3 +1,29 @@
+import { consulting_img ,implementation_img, tech_Support_img } from "../assets";
+
+export const serviceCard = [
+  {
+      id: 1, 
+      image: consulting_img,
+      title: "Consulting",
+      description: "User Experience, Python,Data Engineering & AL/ML consulting, Cloud solution and Cyber Security Audits.",
+  },
+  {
+      id: 2, 
+      image: implementation_img,
+      title: "Implementation",
+      description: "implement technology solutions in your business, ensuring you achieve your desired outcome. Our expertise in digital transformation can help take your business to the next level.",
+  },
+  {
+      id: 3, 
+      image: tech_Support_img,
+      title: "Tech-Support",
+      description: "including Python and JavaScript development, AWS and Microsoft Assure cloud services, AI, ML and data solutions, developer outsourcing, technical training, and more.",
+  },
+]
+
+
+
+
 export const navLinks = [
   {
     id: "#home",

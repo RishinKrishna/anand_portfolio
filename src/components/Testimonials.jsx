@@ -36,8 +36,8 @@ const Testimonials = () => {
                   className="rounded-[50%] h-[70px] object-cover"
                 />
               </div>
-              <h3 className="testmonials_title">{title}</h3>
-              <span className="testmonials_subtitle">{subtitle}</span>
+              <h3 className="testmonials_title ">{title}</h3>
+              <span className="testmonials_subtitle ">{subtitle}</span>
               <div className="testmonials_comments">{comments}</div>
             </SwiperSlide>
           );

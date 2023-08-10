@@ -7,6 +7,8 @@ import Experience from "./Experience";
 import Portfolio from "./Portfolio";
 import Testimonials from "./Testimonials";
 import Skills from "./Skills";
+import Service from "./Service";
+
 
 export {
   Navbar,
@@ -18,4 +20,5 @@ export {
   Testimonials,
   Skills,
   Contact,
+  Service,
 };
