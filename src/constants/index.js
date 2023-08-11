@@ -5,19 +5,19 @@ export const serviceCard = [
       id: 1, 
       image: consulting_img,
       title: "Consulting",
-      description: "User Experience, Python,Data Engineering & AL/ML consulting, Cloud solution and Cyber Security Audits.",
+      description: "We're experts in guiding startups through MVP development, enhancing user experience, using Python for data tasks, providing AL/ML consulting, offering cloud solutions, and conducting cybersecurity audits.",
   },
   {
       id: 2, 
       image: implementation_img,
       title: "Implementation",
-      description: "implement technology solutions in your business, ensuring you achieve your desired outcome. Our expertise in digital transformation can help take your business to the next level.",
+      description: "We're by your side, offering tailored support as you integrate tech solutions into your business. Our digital transformation know-how can elevate your business.",
   },
   {
       id: 3, 
       image: tech_Support_img,
       title: "Tech-Support",
-      description: "including Python and JavaScript development, AWS and Microsoft Assure cloud services, AI, ML and data solutions, developer outsourcing, technical training, and more.",
+      description: "We provide diverse tech support: Python and JavaScript coding, AWS and Microsoft Assure cloud services, AI/ML and data solutions, developer outsourcing, training, and more.",
   },
 ]
 
@@ -34,9 +34,14 @@ export const navLinks = [
     title: "About",
   },
   {
+    id: "#services",
+    title: "Services",
+  },
+  {
     id: "#experience",
     title: "Experience",
   },
+  
   {
     id: "#portfolio",
     title: "Portfolio",
@@ -59,24 +64,24 @@ export const navLinks = [
 export const clientsFeedback =[
   {
       id: 1, 
-      image: "https://th.bing.com/th?id=OIF.3nz4TwfCpnAuNVo%2b8Z1OrQ&pid=ImgDet&rs=1",
+      image: "https://th.bing.com/th/id/OIP.hCeNcWUHqmSHJhxqBrR7wgHaFc?pid=ImgDet&rs=1",
       title: "June 2007 - April 2010",
-      subtitle: "DIPLOMA IN ENGINEERING",
-      comments: "Completed Diploma In Mechanical Engineering from Kerala Govt: Poly Technic College, Kozhikode (SBTE)"
+      subtitle: "- Sarah W., Tech Startup CEO.",
+      comments: "Exceptional service! As a Python enthusiast myself, I was thoroughly impressed with the IT consultant's depth of knowledge. They seamlessly transformed our data challenges into opportunities, delivering insights that significantly impacted our decision-making process."
   },
   {
       id: 2, 
-      image: "https://th.bing.com/th?id=OIF.3nz4TwfCpnAuNVo%2b8Z1OrQ&pid=ImgDet&rs=1",
+      image: "https://th.bing.com/th/id/OIP.buA5IJfxI9vM2nswf0BYGwHaG0?pid=ImgDet&w=691&h=636&rs=1",
       title: "June 2007 - April 2010",
-      subtitle: "DIPLOMA IN ENGINEERING",
-      comments: "Completed Diploma In Mechanical Engineering from Kerala Govt: Poly Technic College, Kozhikode (SBTE)"
+      subtitle: "- Mark R., Data Analytics Manager.",
+      comments: "A true problem-solver! The IT consultant's grasp of Data Engineering was evident as they revamped our data processing, leading to faster, more accurate results. Their cloud solutions elevated our operations, showcasing their commitment to excellence."
   },
   {
       id: 3, 
-      image: "https://th.bing.com/th?id=OIF.3nz4TwfCpnAuNVo%2b8Z1OrQ&pid=ImgDet&rs=1",
+      image: "https://m.media-amazon.com/images/S/amzn-author-media-prod/v67h2is0nr553qtu1bmtgn3sl9._SX450_.jpg",
       title: "June 2007 - April 2010",
-      subtitle: "DIPLOMA IN ENGINEERING",
-      comments: "Completed Diploma In Mechanical Engineering from Kerala Govt: Poly Technic College, Kozhikode (SBTE)"
+      subtitle: "- Lisa M., IT Director, Enterprise Corporation.",
+      comments: "Invaluable partnership. The IT consultant's proficiency in Python and cloud solutions revolutionized our project. Their ability to craft elegant solutions to complex problems is remarkable. They not only addressed our immediate needs but also ensured a future-ready foundation."
   }
 ]
 

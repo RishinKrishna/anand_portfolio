@@ -2,18 +2,20 @@ import styles, { layout } from "../style";
 import { about_img } from "../assets";
 const About = () => (
   <section id="about" className={`${layout.sectionReverse} my-[30px]`}>
+    
     <div className={`${layout.sectionImgReverse}`}>
       <img
         src={about_img}
         alt="billing"
         className="w-[100%] h-[100%] relative z-[5] rounded-[12px]"
       />
-    
-      
     </div>
     <div className={layout.sectionInfo}>
       {/* <div className="absolute z-[0] w-[60%] h-[60%] right-[50%] rounded-full blue__gradient" /> */}
-      <h2 id="" className={`text-[#141824] font-Montserrat font-semibold text-4xl`}>
+      <h2
+        id=""
+        className={`text-[#141824] font-Montserrat font-semibold text-4xl`}
+      >
         ABOUT
       </h2>
       <p className={`${styles.paragraph} max-w-[540px] mt-5 text-[#141824]`}>
@@ -25,15 +27,17 @@ const About = () => (
         goal is to help businesses achieve their objectives by utilizing
         cutting-edge tools and strategies to optimize their technology solutions
       </p>
-      <button
+      <a
+        href="https://calendly.com/vasssystems/free-consultation?month=2023-08"
+        target="_blank"
         className="main_btn mt-5"
       >
-       Get Free Consultation
-      </button>
-      
+        Get Free Consultation
+      </a>
 
       {/* <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient" /> */}
     </div>
+    
   </section>
 );
 

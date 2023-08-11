@@ -13,18 +13,15 @@ const Contact = () => {
       <div className="contact_container grid">
         <div className="contact_info">
           <h3 className="contact_title font-semibold text-[16px]">
-            Let's tailk about <br /> everything
+            Let's talk about <br /> everything
           </h3>
-          <p className="contact_details">
-            Don't like forms? send me an email.{" "}
-          </p>
           <p className="mt-5">
-            As a seasoned IT consultant, I specialize in providing expert
-            guidance on startup MVP development, budget planning for app
-            development
+            Absolutely, let's delve into everything. I am an accomplished IT
+            consultant with a strong background in Python programming, Data
+            Engineering, and cloud solutions.
           </p>
 
-          <a href="" className="flex mt-6">
+          <a href="mailto:anand@vass.co.in" className="flex mt-6">
             <FontAwesomeIcon
               icon={faEnvelope}
               className="social_icons bg-[#141824] py-2 px-2  rounded-[5px] text-white text-[20px]"
@@ -34,7 +31,7 @@ const Contact = () => {
             </p>
           </a>
 
-          <a href="" className="flex mt-6">
+          <a href="tel:919496686256" className="flex mt-6">
             <FontAwesomeIcon
               icon={faPhone}
               className="social_icons bg-[#141824] py-2 px-2  rounded-[5px] text-white text-[20px]"
@@ -44,13 +41,21 @@ const Contact = () => {
             </p>
           </a>
         </div>
-        <form action="" className="contact_form">
+        <form
+          action="https://formspree.io/f/xrgwpkya"
+          method="POST"
+          className="contact_form"
+        >
           <div className="contact_form-group">
             <div className="contact_form-div">
               <input
                 type="text"
                 className="contact_form-input"
                 placeholder="Enter your name"
+                required
+                autoComplete="off"
+                min={10}
+                name="name"
               />
             </div>
             <div className="contact_form-div">
@@ -58,6 +63,9 @@ const Contact = () => {
                 type="email"
                 className="contact_form-input"
                 placeholder="Enter your email"
+                required
+                autoComplete="off"
+                name="email"
               />
             </div>
           </div>
@@ -67,17 +75,23 @@ const Contact = () => {
               type="text"
               className="contact_form-input"
               placeholder="Enter your subject"
+              required
+              autoComplete="off"
+              name="subject"
             />
           </div>
 
           <div className="contact_form-div contact_form-area">
             <textarea
-              name=""
+              name="message"
               id=""
               cols="30"
               rows="10"
               className="contact_form-input"
               placeholder="Write your message"
+              required
+              autoComplete="off"
+              min="5"
             ></textarea>
           </div>
           <button className="main_btn">Send Message</button>

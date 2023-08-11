@@ -37,14 +37,13 @@ const Portfolio = () => {
       <div className="_work_list">
         <div className="_work">
           <img
-            src="https://th.bing.com/th/id/OIP.nuR81VxPJg5ewn6HPz_EZgHaE8?pid=ImgDet&rs=1"
+            src="https://www.intacs.com/wp-content/uploads/2019/08/how-to-do-real-time-analytics-across-historical-and-live-data-1.jpg"
             alt=""
           />
           <div className="portfolio_card_leyer">
-            <h3>Web Development</h3>
+            <h3>Real-time Data Analytics Platform:</h3>
             <p>
-              Our new Project every processes had become fragmented; meaning
-              quality and service were inconsistent.
+            For a fast-growing e-commerce startup, I developed a real-time data analytics platform using Python and cloud resources. By designing optimal data pipelines.
             </p>
             <a href="">
               <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
@@ -53,14 +52,13 @@ const Portfolio = () => {
         </div>
         <div className="_work">
           <img
-            src="https://th.bing.com/th/id/OIP.nuR81VxPJg5ewn6HPz_EZgHaE8?pid=ImgDet&rs=1"
+            src="https://www.themediabulletin.com/wp-content/uploads/2020/12/IoT-Integration.jpg"
             alt=""
           />
           <div className="portfolio_card_leyer">
-            <h3>Web Development</h3>
+            <h3>IoT Data Integration Solution</h3>
             <p>
-              Our new Project every processes had become fragmented; meaning
-              quality and service were inconsistent.
+            Working with a manufacturing company, I engineered an end-to-end IoT data integration solution. Leveraging my Data Engineering skills.
             </p>
             <a href="">
               <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
@@ -69,14 +67,13 @@ const Portfolio = () => {
         </div>
         <div className="_work">
           <img
-            src="https://th.bing.com/th/id/OIP.nuR81VxPJg5ewn6HPz_EZgHaE8?pid=ImgDet&rs=1"
+            src="https://th.bing.com/th/id/OIP.ahehj_7bEMhllIfRGH97YwHaEK?pid=ImgDet&rs=1"
             alt=""
           />
           <div className="portfolio_card_leyer">
-            <h3>Web Development</h3>
+            <h3>Scalable Healthcare Data Solution</h3>
             <p>
-              Our new Project every processes had become fragmented; meaning
-              quality and service were inconsistent.
+            Collaborating with a healthcare provider, I developed a scalable data solution to manage patient records securely. By employing Python for data processing and integrating cloud storage
             </p>
             <a href="">
               <FontAwesomeIcon icon={faArrowUpRightFromSquare} /> 

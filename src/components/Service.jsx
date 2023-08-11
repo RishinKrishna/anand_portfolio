@@ -2,7 +2,7 @@ import { serviceCard } from "../constants";
 
 const Service = () => {
   return (
-    <section id="servives" className="services container section">
+    <section id="services" className="services container section mb-12">
       <h2
         className={`text-[#141824] flex justify-center font-Montserrat font-semibold text-4xl py-10`}
       >
@@ -13,7 +13,7 @@ const Service = () => {
         {serviceCard.map(({id, image , title ,description}) =>{
           return (
             <div className="services_card" key={id}>
-              <img src={image} alt="" className="services_img" />
+              <img src={image} alt="" className="w-[550px]" />
               <h3 className="services_title text-[22px] mt-3 font-semibold text-[#8b88b1] hover:text-[#990033]">
                 {title}
               </h3>
