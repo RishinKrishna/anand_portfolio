@@ -21,7 +21,7 @@
 //     markers: true,
 //   },
 // });
-
+import { project_01, project_02, project_03 } from "../assets";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
@@ -37,7 +37,7 @@ const Portfolio = () => {
       <div className="_work_list">
         <div className="_work">
           <img
-            src="https://www.intacs.com/wp-content/uploads/2019/08/how-to-do-real-time-analytics-across-historical-and-live-data-1.jpg"
+            src={project_01}
             alt=""
           />
           <div className="portfolio_card_leyer">
@@ -52,7 +52,7 @@ const Portfolio = () => {
         </div>
         <div className="_work">
           <img
-            src="https://www.themediabulletin.com/wp-content/uploads/2020/12/IoT-Integration.jpg"
+            src={project_02}
             alt=""
           />
           <div className="portfolio_card_leyer">
@@ -67,7 +67,7 @@ const Portfolio = () => {
         </div>
         <div className="_work">
           <img
-            src="https://th.bing.com/th/id/OIP.ahehj_7bEMhllIfRGH97YwHaEK?pid=ImgDet&rs=1"
+            src={project_03}
             alt=""
           />
           <div className="portfolio_card_leyer">

@@ -35,7 +35,7 @@ const Hero = () => (
     <a href="https://wa.me/919496686256" target="_blank">
       <FontAwesomeIcon
         icon={faWhatsapp}
-        className="whatsapp_icon  bottom-12 right-12 bg-[#54EC68] py-2 px-3 absolute  rounded-[12px] text-white text-[45px]"
+        className="whatsapp_icon  bottom-7 right-7 bg-[#54EC68] py-2 px-3 fixed  rounded-[12px] text-white text-[45px]"
       />
     </a>
 
