@@ -12,8 +12,8 @@ const Service = () => {
       <div className="services_container grid">
         {serviceCard.map(({id, image , title ,description}) =>{
           return (
-            <div className="services_card" key={id}>
-              <img src={image} alt="" className="w-[550px]" />
+            <div className="services_card flex flex-col justify-center items-center" key={id}>
+              <img src={image} alt="" className="w-[65px]  items-center" />
               <h3 className="services_title text-[22px] mt-3 font-semibold text-[#8b88b1] hover:text-[#990033]">
                 {title}
               </h3>

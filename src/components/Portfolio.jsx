@@ -30,7 +30,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio">
       <h2 id="sub_heading_portfolio"
-        className={` text-[#141824] flex justify-center font-Montserrat font-semibold text-4xl py-[30px]`}
+        className={`text-[#141824] flex justify-center font-Montserrat font-semibold text-4xl py-[30px]`}
       >
         PORTFOLIO
       </h2>
