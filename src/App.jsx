@@ -1,5 +1,6 @@
 import styles from "./style";
 import { Navbar, Footer, Hero, Experience, About, Portfolio, Testimonials, Skills, Contact, Service } from "./components";
+import CareerGoals from './components/CareerGoals'; // Import the CareerGoals component
 
 const App = () => (
   <div className="w-full h-screen">
