@@ -65,22 +65,22 @@ export const clientsFeedback =[
   {
       id: 1, 
       image: "https://th.bing.com/th/id/OIP.hCeNcWUHqmSHJhxqBrR7wgHaFc?pid=ImgDet&rs=1",
-      title: "June 2007 - April 2010",
-      subtitle: "- Sarah W., Tech Startup CEO.",
-      comments: "Exceptional service! As a Python enthusiast myself, I was thoroughly impressed with the IT consultant's depth of knowledge. They seamlessly transformed our data challenges into opportunities, delivering insights that significantly impacted our decision-making process."
+      title: "July 2023 - April 2024",
+      subtitle: "Mr. Jamal, CEO, IPCS Automation",
+      comments: "Remarkable service! Being a Python enthusiast, I was truly amazed by the IT consultant's profound expertise. They effortlessly turned our data challenges into possibilities, providing insights that had a significant influence on our decision-making."
   },
   {
       id: 2, 
       image: "https://th.bing.com/th/id/OIP.buA5IJfxI9vM2nswf0BYGwHaG0?pid=ImgDet&w=691&h=636&rs=1",
-      title: "June 2007 - April 2010",
-      subtitle: "- Mark R., Data Analytics Manager.",
+      title: "May 2022 - April 2024",
+      subtitle: "Fr. Anto Joseph,  Vice Principal, St.Joseph college, Devagiri",
       comments: "A true problem-solver! The IT consultant's grasp of Data Engineering was evident as they revamped our data processing, leading to faster, more accurate results. Their cloud solutions elevated our operations, showcasing their commitment to excellence."
   },
   {
       id: 3, 
       image: "https://m.media-amazon.com/images/S/amzn-author-media-prod/v67h2is0nr553qtu1bmtgn3sl9._SX450_.jpg",
-      title: "June 2007 - April 2010",
-      subtitle: "- Lisa M., IT Director, Enterprise Corporation.",
+      title: "October 2002 - Sept 2023",
+      subtitle: "Arun. M, Founder & Director, Reliva Global Pvt. Ltd",
       comments: "Invaluable partnership. The IT consultant's proficiency in Python and cloud solutions revolutionized our project. Their ability to craft elegant solutions to complex problems is remarkable. They not only addressed our immediate needs but also ensured a future-ready foundation."
   }
 ]
@@ -91,24 +91,20 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Future Plans",
+        link: "#",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Other Activities",
+        link: "#",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "Explore Projects",
+        link: "#",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "#",
       },
     ],
   },
@@ -117,23 +113,19 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "#",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "#",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "#",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "#",
       },
     ],
   },
@@ -141,12 +133,12 @@ export const footerLinks = [
     title: "Partner",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Our Partners",
+        link: "#",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "#",
       },
     ],
   },

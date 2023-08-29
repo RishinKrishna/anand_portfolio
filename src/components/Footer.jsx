@@ -30,13 +30,13 @@ const Footer = () => (
         THE NEXT BIG IDEA IS WAITING FOR ITS NEXT BIG CHANGER WITH VASS
         </p>
         <div className="flex gap-3">
-          <a href="" className="flex mt-6">
+          <a href="https://www.facebook.com/anandvm" className="flex mt-6">
             <FontAwesomeIcon
               icon={faFacebook}
               className="social_icons_footer bg-[#ccc] py-2 px-2  rounded-[5px] text-[#3765A3] text-[20px]"
             />
           </a>
-          <a href="https://www.facebook.com/anandvm" target="_blank" className="flex mt-6">
+          <a href="https://instagram.com/anandvmclt" target="_blank" className="flex mt-6">
             <FontAwesomeIcon
               icon={faInstagram}
               className="social_icons_footer bg-[#ccc] py-2 px-2  rounded-[5px] text-[#DE4465] text-[20px]"

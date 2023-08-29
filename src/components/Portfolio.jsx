@@ -41,9 +41,9 @@ const Portfolio = () => {
             alt=""
           />
           <div className="portfolio_card_leyer">
-            <h3>Real-time Data Analytics Platform:</h3>
+            <h3>Full Stack Web Application:</h3>
             <p>
-            For a fast-growing e-commerce startup, I developed a real-time data analytics platform using Python and cloud resources. By designing optimal data pipelines.
+            I've crafted diverse full-stack web apps from scratch, playing roles of client consultant, product architect, backend developer, team lead, and financial planner for startup ventures. Notable projects include Reliva Global, a crypto trading platform, and Easy NAAC, an in-house tool for streamlined management of accreditation data, backed by Python Django and React JS.
             </p>
             <a href="">
               <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
@@ -56,9 +56,9 @@ const Portfolio = () => {
             alt=""
           />
           <div className="portfolio_card_leyer">
-            <h3>IoT Data Integration Solution</h3>
+            <h3>IoT Data Engineering Solution</h3>
             <p>
-            Working with a manufacturing company, I engineered an end-to-end IoT data integration solution. Leveraging my Data Engineering skills.
+            I've explored and developed a GPS-based location announcement system. I also created a physical product for my early startup using my knowledge in IoT and electronics, focusing on automation and mechatronics. Right now, I'm learning and researching popular technologies like AI, ML, and data engineering. I'm working on creating data pipelines for the Industry 4.0 trend.
             </p>
             <a href="">
               <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
@@ -71,9 +71,9 @@ const Portfolio = () => {
             alt=""
           />
           <div className="portfolio_card_leyer">
-            <h3>Scalable Healthcare Data Solution</h3>
+            <h3>Cloud & DevOps Solution</h3>
             <p>
-            Collaborating with a healthcare provider, I developed a scalable data solution to manage patient records securely. By employing Python for data processing and integrating cloud storage
+            Exploring and actively working on different cloud and DevOps technologies. Accomplished the setup of CI/CD pipelines for a Django product on AWS cloud using Docker. Currently delving into Assure Data pipelines. Possess strong expertise in Linux-based systems.
             </p>
             <a href="">
               <FontAwesomeIcon icon={faArrowUpRightFromSquare} /> 
