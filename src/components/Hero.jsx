@@ -56,10 +56,12 @@ const Hero = () => (
       <p
         className={`${styles.paragraph} banner_paragraph max-w-[650px] mt-5 text-white`}
       >
-        Experienced IT consultant focusing on startup MVPs, app budgets, Python,
-        Data Engineering, ERP consulting, and cloud solutions. Providing tech
-        advice, creative solutions, and advanced tools for optimizing business
-        goals.
+      I specialize in steering startups through MVP development, leveraging architectural
+      skills to elevate user experiences. With a focus on harnessing Python for data tasks
+      and delivering top-tier AI/ML consulting, I bring forth comprehensive ERP implementation
+      and cloud solutions. Alongside these, I excel in conducting cybersecurity audits, 
+      extending tech support, offering strategic IT consulting, meticulous budget planning, 
+      and empowering training sessions.
       </p>
       <a
         href="https://calendly.com/vasssystems/free-consultation?month=2023-08"

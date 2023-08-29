@@ -38,7 +38,7 @@ const Skills = () => {
 
             <div className="skills_data">
               <div className="skills_titles">
-                <h3 className="skills_name">JavaScript</h3>
+                <h3 className="skills_name">JavaScript (Full stack)</h3>
                 <span className="skills_number">54%</span>
               </div>
               <div className="skills_bar">
@@ -49,7 +49,7 @@ const Skills = () => {
             <div className="skills_data">
               <div className="skills_titles">
                 <h3 className="skills_name">Cloud & DevOps</h3>
-                <span className="skills_number ">69%</span>
+                <span className="skills_number ">68%</span>
               </div>
               <div className="skills_bar">
                 <span className="skills_percentage Cloud_and_DevOps"></span>
@@ -58,7 +58,7 @@ const Skills = () => {
 
             <div className="skills_data">
               <div className="skills_titles">
-                <h3 className="skills_name">AI & Data Engineering</h3>
+                <h3 className="skills_name"> AI & Data Engineering</h3>
                 <span className="skills_number">35%</span>
               </div>
               <div className="skills_bar">
