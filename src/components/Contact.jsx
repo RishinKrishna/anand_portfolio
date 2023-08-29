@@ -31,13 +31,13 @@ const Contact = () => {
             </p>
           </a>
 
-          <a href="tel:919496686256" className="flex mt-6">
+          <a href="tel:+917907606844" className="flex mt-6">
             <FontAwesomeIcon
               icon={faPhone}
               className="social_icons bg-[#141824] py-2 px-2  rounded-[5px] text-white text-[20px]"
             />
             <p className="ml-4 mt-1 text-[#141824] text-[16px] font-semibold contact_links">
-              +91 9496 686 256
+              +91 790 760 6844
             </p>
           </a>
         </div>
