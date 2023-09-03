@@ -8,7 +8,8 @@ import Portfolio from "./Portfolio";
 import Testimonials from "./Testimonials";
 import Skills from "./Skills";
 import Service from "./Service";
-
+import Home from "../Pages/Home";
+import CareerGoals from "../Pages/CareerGoals";
 
 export {
   Navbar,
@@ -21,4 +22,6 @@ export {
   Skills,
   Contact,
   Service,
+  Home,
+  CareerGoals,
 };
