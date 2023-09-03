@@ -14,7 +14,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => (
-  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
+  <section className={` ${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-1 flex flex-col justify-start mr-10">
         <h2 className="text-[#ccc] text-[30px] font-Montserrat">ANAND NAMBISSAN</h2>
