@@ -127,17 +127,14 @@ export const footerLinks = [
         name: "Explore Projects",
         link: "#",
       },
-      {
-        name: "Terms & Services",
-        link: "#",
-      },
+
     ],
   },
   {
     title: "Community",
     links: [
       {
-        name: "Help Center",
+        name: "Help & Support",
         link: "#",
       },
       {
@@ -146,10 +143,6 @@ export const footerLinks = [
       },
       {
         name: "Blog",
-        link: "#",
-      },
-      {
-        name: "Newsletters",
         link: "#",
       },
     ],
@@ -162,7 +155,11 @@ export const footerLinks = [
         link: "#",
       },
       {
-        name: "Become a Partner",
+        name: "Get Services",
+        link: "#",
+      },
+      {
+        name: "Terms of service",
         link: "#",
       },
     ],

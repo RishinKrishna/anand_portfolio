@@ -31,7 +31,7 @@ const CareerGoals = () => {
       <h2
         className={`text-[#141824] flex justify-center text-center font-poppins font-semibold text-4xl py-12`}
       >
-        Key Requirements for My Next Role
+        Key Requirements for my next Role
       </h2>
 
       {/* Your content for career goals */}
