@@ -2,7 +2,7 @@ import { about_img } from "../assets";
 
 const Skills = () => {
   return (
-    <section id="skills" className="about container section ">
+    <section id="skills" className="about  section ">
       <h2
         className={`text-[#141824] flex justify-center font-Montserrat font-semibold text-4xl py-10`}
       >

@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 
 const Testimonials = () => {
   return (
-    <section id="clinets" className="testmonials container section">
+    <section id="clinets" className="testmonials  section">
       <h2
         className={`text-[#141824] flex justify-center font-poppins font-semibold text-4xl py-10`}
       >

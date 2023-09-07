@@ -2,7 +2,7 @@ import { serviceCard } from "../constants";
 
 const Service = () => {
   return (
-    <section id="services" className="services container section mb-12">
+    <section id="services" className="services  section mb-12">
       <h2
         className={`text-[#141824] flex justify-center font-Montserrat font-semibold text-4xl py-10`}
       >

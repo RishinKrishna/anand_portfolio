@@ -36,38 +36,38 @@ const Footer = () => (
               className="social_icons_footer bg-[#ccc] py-2 px-2  rounded-[5px] text-[#3765A3] text-[20px]"
             />
           </a>
-          <a href="https://instagram.com/anandvmclt" target="_blank" className="flex mt-6">
+          <a href="https://instagram.com/anandvmclt" target="_blank" rel="noreferrer" className="flex mt-6">
             <FontAwesomeIcon
               icon={faInstagram}
               className="social_icons_footer bg-[#ccc] py-2 px-2  rounded-[5px] text-[#DE4465] text-[20px]"
             />
           </a>
 
-          <a href="https://twitter.com/anandvm_clt" target="_blank" className="flex mt-6">
+          <a href="https://twitter.com/anandvm_clt" target="_blank" rel="noreferrer" className="flex mt-6">
             <FontAwesomeIcon
               icon={faTwitter}
               className="social_icons_footer bg-[#ccc] py-2 px-2  rounded-[5px] text-[#1DA1F2] text-[20px]"
             />
           </a>
-          <a href="https://www.linkedin.com/in/anandvmclt/" target="_blank" className="flex mt-6">
+          <a href="https://www.linkedin.com/in/anandvmclt/" target="_blank" rel="noreferrer" className="flex mt-6">
             <FontAwesomeIcon
               icon={faLinkedinIn}
               className="social_icons_footer bg-[#ccc] py-2 px-2  rounded-[5px] text-[#007AB5] text-[20px]"
             />
           </a>
-          <a href="https://www.youtube.com/@vasssystems" target="_blank" className="flex mt-6">
+          <a href="https://www.youtube.com/@vasssystems" target="_blank" rel="noreferrer" className="flex mt-6">
             <FontAwesomeIcon
               icon={faYoutube}
               className="social_icons_footer bg-[#ccc] py-2 px-2  rounded-[5px] text-[#FD0100] text-[20px]"
             />
           </a>
-          <a href="https://github.com/anandvmclt" target="_blank" className="flex mt-6">
+          <a href="https://github.com/anandvmclt" target="_blank" rel="noreferrer" className="flex mt-6">
             <FontAwesomeIcon
               icon={faGithub}
               className="social_icons_footer bg-[#ccc] py-2 px-2  rounded-[5px] text-[#222222] text-[20px]"
             />
           </a>
-          <a href="https://www.fiverr.com/vasssystems" target="_blank" className="flex mt-6">
+          <a href="https://www.fiverr.com/vasssystems" target="_blank" rel="noreferrer" className="flex mt-6">
             <FontAwesomeIcon
               icon={faGoogle}
               className="social_icons_footer bg-[#ccc] py-2 px-2  rounded-[5px] text-[#E94134] text-[20px]"

@@ -3,7 +3,7 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   return (
-    <section id="contact" className="contact container section">
+    <section id="contact" className="contact  section">
       <h2
         className={`text-[#141824] flex justify-center font-Montserrat font-semibold text-4xl py-10`}
       >
