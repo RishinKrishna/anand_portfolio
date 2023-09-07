@@ -1,20 +1,16 @@
 import React from "react";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home, CareerGoals } from "../components";
 
 const MainRoute = () => {
-  
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <Home />,
-    },
-    {
-      path: "/careergoals",
-      element: <CareerGoals />,
-    },
-  ]);
-  return <RouterProvider router={router} />;
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" exact Component={Home} />
+        <Route path="/careergoals" Component={CareerGoals} />
+      </Routes>
+    </Router>
+  );
 };
 
 export default MainRoute;

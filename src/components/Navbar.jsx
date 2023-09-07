@@ -8,7 +8,9 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
       {/* <img src={logo} alt="logo" className="w-[124px] h-[32px]" /> */}
-      <h1 className="text-white font-Montserrat text-[25px] font-semibold">ANAND </h1>
+      <h1 className="text-white font-Montserrat text-[25px] font-semibold">
+        ANAND{" "}
+      </h1>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
@@ -17,7 +19,11 @@ const Navbar = () => {
               index === navLinks.lenght - 1 ? "mr-0" : "mr-10"
             } text-white mr-10`}
           >
-            <Link to={nav.id}>{nav.title}</Link>
+            {nav.id == "/careergoals" ? (
+              <Link to={nav.id}>{nav.title}</Link>
+            ) : (
+              <a href={nav.id}>{nav.title}</a>
+            )}
           </li>
         ))}
       </ul>
@@ -42,7 +48,11 @@ const Navbar = () => {
                   index === navLinks.lenght - 1 ? "mr-0" : "mb-4"
                 } text-black font-semibold mr-10`}
               >
-                <Link to={nav.id}>{nav.title}</Link>
+                {nav.id == "/careergoals" ? (
+                  <Link to={nav.id}>{nav.title}</Link>
+                ) : (
+                  <a href={nav.id}>{nav.title}</a>
+                )}
               </li>
             ))}
           </ul>
