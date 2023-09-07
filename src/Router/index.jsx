@@ -3,6 +3,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Home, CareerGoals } from "../components";
 
 const MainRoute = () => {
+  
   const router = createBrowserRouter([
     {
       path: "/",
