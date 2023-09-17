@@ -138,8 +138,8 @@ export const footerLinks = [
         link: "#",
       },
       {
-        name: "Suggestions",
-        link: "#",
+        name: "Download Resume",
+        link: "https://vasssystems.s3.ap-south-1.amazonaws.com/Documents/Anand_Resume.pdf",
       },
       {
         name: "Blog",

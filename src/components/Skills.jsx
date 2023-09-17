@@ -23,7 +23,10 @@ const Skills = () => {
               commitment to staying abreast of industry trends ensures the
               delivery of cutting-edge solutions aligned with evolving needs.
             </p>
+            <a href="https://vasssystems.s3.ap-south-1.amazonaws.com/Documents/Anand_Resume.pdf" target="_blank" rel="noopener noreferrer">
             <button className="main_btn mt-5">Download CV</button>
+            </a>
+
           </div>
           <div className="about_skills grid">
             <div className="skills_data">
