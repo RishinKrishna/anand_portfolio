@@ -77,7 +77,7 @@ const Experience = () => {
               </p>
             </div>
             <div className="_box">
-              <h4>July 2013 - December 2015</h4>
+              <h4>July 2014 - January 2016</h4>
               <h3>QA / QC Analyst</h3>
               <p>
                 I'm a self-taught IT pro with a Mechanical Engineering degree. I
